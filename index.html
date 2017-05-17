@@ -15,7 +15,7 @@
   <header>
     <nav class="navbar navbar-inverse navbar-default">
       <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
+
         <div class="navbar-header ">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Bootstrap theme</span>
@@ -49,15 +49,15 @@
     </nav>
   </header>
 
-    <!-- TEXTO INTRODUCCIÓN -->
+<!-- Area de Jumbotron -------------------------------------------------------->
 
     <section  class="container" >
-        <div class="row">
+        <div class="row espacioAbajo">
             <div class="col-md-12 col-xs-12 col-sm-12">
                 <div class="jumbotron">
-                    <h1 >Theme example</h1>   <!-- class="display-3" -->
+                    <h1 >Theme example</h1>
                     <!-- class="lead" es una parte mas importante del parrafo-->
-                        <p class="lead">This is a template showcasing the optional theme</p>
+                        <p >This is a template showcasing the optional theme</p>
                         <p>stylesheet included in Bootstrap. Use it as a starting</p>
                         <p>oint to create something more unique by building on or</p>
                         <p>modifying it.</p>
@@ -280,7 +280,7 @@
 
     <section  class="container">
       <div class="row espacioAbajo">
-        <div class=" col-md-12 page-header">
+        <div class=" col-md-12 col-xs-12 col-sm-12 page-header">
           <h2>Thumbnails</h2>
         </div>
       </div>
@@ -299,7 +299,7 @@
         </div>
       </div>
       <div class="row espacioAbajo">
-        <div class="col-md-12">
+        <div class="col-md-12 col-xs-12 col-sm-12">
           <h1>
             <span class="label label-default">Default</span>
             <span class="label label-primary">Primary</span>
@@ -311,7 +311,7 @@
         </div>
         </div>
         <div class="row espacioAbajo">
-          <div class="col-md-12">
+          <div class="col-md-12 col-xs-12 col-sm-12">
             <h2>
               <span class="label label-default">Default</span>
               <span class="label label-primary">Primary</span>
@@ -323,7 +323,7 @@
           </div>
         </div>
         <div class="row espacioAbajo">
-          <div class="col-md-12">
+          <div class="col-md-12 col-xs-12 col-sm-12">
            <h3>
              <span class="label label-default">Default</span>
              <span class="label label-primary">Primary</span>
@@ -335,7 +335,7 @@
          </div>
        </div>
       <div class="row espacioAbajo">
-        <div class="col-md-12">
+        <div class="col-md-12 col-xs-12 col-sm-12">
           <h4>
             <span class="label label-default">Default</span>
            <span class="label label-primary">Primary</span>
@@ -347,7 +347,7 @@
        </div>
      </div>
      <div class="row espacioAbajo">
-       <div class="col-md-12">
+       <div class="col-md-12 col-xs-12 col-sm-12">
          <h5>
            <span class="label label-default">Default</span>
            <span class="label label-primary">Primary</span>
@@ -359,7 +359,7 @@
        </div>
      </div>
      <div class="row espacioAbajo">
-       <div class="col-md-12">
+       <div class="col-md-12 col-xs-12 col-sm-12">
          <h6>
            <span class="label label-default">Default</span>
            <span class="label label-primary">Primary</span>
@@ -370,7 +370,7 @@
          </h6>
        </div>
      </div>
-   </section>
+  </section>
         <!-- BADGES -->
         <section id="distintivos" class="container">
             <div class="row espacioAbajo">
@@ -393,146 +393,154 @@
                 </div>
             </div>
         </section>
-        <!-- DESPLEGABLES -->
-        <section id="desplegables" class="container">
+<!-- Area de menu desplegables ------------------------------------------->
+
+        <section  class="container">
             <div class="row espacioAbajo">
-                <div class="page-header col-md-12">
-                    <h2>Dropdown menus</h2>
-                </div>
+              <div class=" col-md-12 page-header">
+                <h2>Dropdown enus</h2>
+              </div>
             </div>
             <div class="row espacioAbajo">
-                <div class="col-md-12">
-                    <div class="dropdown theme-dropdown visible">
-                        <a id="dropdownMenu1" href="#" class=" dropdown-toggle" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                            <li class="active"><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
-                    </div>
+              <div class="col-md-12">
+                <div class="dropdown">
+                  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown<span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else heret</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
                 </div>
+              </div>
             </div>
+          </section>
+
+<!-- Area de Nav ---------------------------------------------------------->
+
+        <section  class="container">
+          <div class="row espacioAbajo">
+            <div class="page-header col-md-12">
+              <h2>Navs</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="nav nav-tabs">
+                <li role="presentation" class="active"><a href="#">Home</a></li>
+                <li role="presentation"><a href="#">Profile</a></li>
+                <li role="presentation"><a href="#">Messages</a></li>
+              </ul>
+            </div>
+            <div class="row espacioAbajo">
+              <div class="col-md-12">
+                <ul class="nav nav-pills izq">
+                  <li role="presentation" class="active"><a href="#">Home</a></li>
+                  <li role="presentation"><a href="#">Profile</a></li>
+                  <li role="presentation"><a href="#">Messages</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </section>
-        <!-- NAVEGADORES -->
-        <section id="navegadores" class="container">
-            <div class="row espacioAbajo">
-                <div class="page-header col-md-12">
-                    <h2>Navs</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="nav nav-tabs">
-                        <li role="presentation" class="active"><a href="#">Home</a></li>
-                        <li role="presentation"><a href="#">Profile</a></li>
-                        <li role="presentation"><a href="#">Messages</a></li>
-                    </ul>
-                </div>
-                <div class="row espacioAbajo">
-                    <div class="col-md-12">
-                        <ul class="nav nav-pills izq">
-                            <li role="presentation" class="active"><a href="#">Home</a></li>
-                            <li role="presentation"><a href="#">Profile</a></li>
-                            <li role="presentation"><a href="#">Messages</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- BARRAS NAVEGACION -->
-        <section id="barrasnav" class="container">
+
+<!-- Area de barras de navegacion--------------------------------------------->
+
+        <section  class="container">
             <div class="row espacioAbajo">
                 <div class="page-header col-md-12">
                     <h2>Navbars</h2>
                 </div>
             </div>
             <div class="row espacioAbajo">
-                <div class="col-md-12">
-                    <nav class="navbar navbar-default">
-                        <div class="container">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <a class="navbar-brand" href="#">Project name</a>
-                            </div>
-                            <div class="navbar-collapse collapse">
-                                <ul class="nav navbar-nav">
-                                    <li class="active"><a href="#">Home</a></li>
-                                    <li><a href="#about">About</a></li>
-                                    <li><a href="#contact">Contact</a></li>
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">Action</a></li>
-                                            <li><a href="#">Another action</a></li>
-                                            <li><a href="#">Something else here</a></li>
-                                            <li role="separator" class="divider"></li>
-                                            <li class="dropdown-header">Nav header</li>
-                                            <li><a href="#">Separated link</a></li>
-                                            <li><a href="#">One more separated link</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-                <!-- /row -->
+              <div class="col-md-12">
+                <nav class="navbar  navbar-default">
+                  <div class="container">
+                    <div class="navbar-header ">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Bootstrap theme</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">Project name</a>
+                    </div>
+                    <div class="collapse navbar-collapse" >
+                      <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                          <li><a href="#">Contact</a></li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header" >Nav header</li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">One more separated link</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
             </div>
+
             <div class="row espacioAbajo">
-                <div class="col-md-12">
-                    <nav class="navbar navbar-inverse">
-                        <div class="container">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <a class="navbar-brand" href="#">Project name</a>
-                            </div>
-                            <div class="navbar-collapse collapse">
-                                <ul class="nav navbar-nav">
-                                    <li class="active"><a href="#">Home</a></li>
-                                    <li><a href="#about">About</a></li>
-                                    <li><a href="#contact">Contact</a></li>
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">Action</a></li>
-                                            <li><a href="#">Another action</a></li>
-                                            <li><a href="#">Something else here</a></li>
-                                            <li role="separator" class="divider"></li>
-                                            <li class="dropdown-header">Nav header</li>
-                                            <li><a href="#">Separated link</a></li>
-                                            <li><a href="#">One more separated link</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
+              <div class="col-md-12">
+                <nav class="navbar navbar-inverse navbar-default">
+                  <div class="container">
+
+                    <div class="navbar-header ">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Bootstrap theme</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">Project name</a>
+                    </div>
+                    <div class="collapse navbar-collapse" >
+                      <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                          <li><a href="#">Contact</a></li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header" >Nav header</li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">One more separated link</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
             </div>
-        </section>
-        <!-- ALERTAS -->
+          </section>
+
+
+<!-- Area de alertas------------------------------------------------------------>
         <section id="alertas" class="container">
-            <div class="row espacioAbajo">
-                <div class="page-header col-md-12">
-                    <h2>Alerts</h2>
-                </div>
+          <div class="row espacioAbajo">
+            <div class="page-header col-md-12">
+              <h2>Alerts</h2>
             </div>
-            <div class="row">
-                <div class="col-md-12 alert alert-success" role="alert">
-                    <strong>Well done!</strong> You successfully read this important alert message.
-                </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 alert alert-success" role="alert">
+              <strong>Well done!</strong> You successfully read this important alert message.
+            </div>
             </div>
             <div class="row">
                 <div class="col-md-12 alert alert-info" role="alert">
@@ -550,211 +558,193 @@
                 </div>
             </div>
         </section>
-        <!-- BARRAS PROGRESO -->
-        <section id="progreso" class="container">
-            <div class="row espacioAbajo">
-                <div class="page-header col-md-12">
-                    <h2>Progress bars</h2>
-                </div>
+
+<!-- Area de barras ----------------------------------------------------------->
+
+        <section  class="container">
+          <div class="row espacioAbajo">
+            <div class="page-header col-md-12">
+              <h2>Progress bars</h2>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60% Complete</span></div>
-                    </div>
-                </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60% Complete</span></div>
+              </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"><span class="sr-only">40% Complete (success)</span></div>
-                    </div>
-                </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"><span class="sr-only">40% Complete (success)</span></div>
+              </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"><span class="sr-only">20% Complete</span></div>
-                    </div>
-                </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="progress">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"><span class="sr-only">20% Complete</span></div>
+              </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="sr-only">60% Complete (warning)</span></div>
-                    </div>
-                </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="progress">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="sr-only">60% Complete (warning)</span></div>
+              </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><span class="sr-only">80% Complete (danger)</span></div>
-                    </div>
-                </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="progress">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><span class="sr-only">80% Complete (danger)</span></div>
+              </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="sr-only">60% Complete</span></div>
-                    </div>
-                </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="sr-only">60% Complete</span></div>
+              </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" style="width: 35%"><span class="sr-only">35% Complete (success)</span></div>
-                        <div class="progress-bar progress-bar-warning" style="width: 20%"><span class="sr-only">20% Complete (warning)</span></div>
-                        <div class="progress-bar progress-bar-danger" style="width: 10%"><span class="sr-only">10% Complete (danger)</span></div>
-                    </div>
-                </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" style="width: 35%"><span class="sr-only">35% Complete (success)</span></div>
+                <div class="progress-bar progress-bar-warning" style="width: 20%"><span class="sr-only">20% Complete (warning)</span></div>
+                <div class="progress-bar progress-bar-danger" style="width: 10%"><span class="sr-only">10% Complete (danger)</span></div>
+              </div>
             </div>
+          </div>
         </section>
-        <!-- GRUPOS -->
-        <section id="grupos" class="container">
-            <div class="row espacioAbajo">
-                <div class="page-header col-md-12">
-                    <h2>List groups</h2>
+
+<!--Area de panels   -------------------------------------------------->
+        <section class="container">
+          <div class="row espacioAbajo">
+            <div class="col-md-12">
+              <h2>Panels </h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="panel-group">
+                <div class="panel panel-default">
+                  <div class="panel-heading">Panel title</div>
+                  <div class="panel-body">Panel Content</div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-4 col-md-4">
-                    <ul class="list-group">
-                        <li class="list-group-item">Cras justo odio</li>
-                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                        <li class="list-group-item">Morbi leo risus</li>
-                        <li class="list-group-item">Porta ac consectetur ac</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
-                    </ul>
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <div class="list-group">
-                        <a href="#" class="list-group-item active">
-                  Cras justo odio
-                </a>
-                        <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-                        <a href="#" class="list-group-item">Morbi leo risus</a>
-                        <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-                        <a href="#" class="list-group-item">Vestibulum at eros</a>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <div class="list-group">
-                        <a href="#" class="list-group-item active">
-                            <h4 class="list-group-item-heading">List group item heading</h4>
-                            <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                        </a>
-                        <a href="#" class="list-group-item">
-                            <h4 class="list-group-item-heading">List group item heading</h4>
-                            <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                        </a>
-                        <a href="#" class="list-group-item">
-                            <h4 class="list-group-item-heading">List group item heading</h4>
-                            <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                        </a>
-                    </div>
-                </div>
+          </div>
+
+            <div class="col-md-4">
+              <div class="panel panel-primary">
+                <div class="panel-heading">Panel title</div>
+                <div class="panel-body">Panel Content</div>
+              </div>
             </div>
-        </section>
-        <!-- PANELES -->
-        <section id="paneles" class="container">
-            <div class="row espacioAbajo ">
-                <div class="page-header col-md-12">
-                    <h2>Panels</h2>
-                </div>
+
+            <div class="col-md-4">
+              <div class="panel panel-success">
+                <div class="panel-heading">Panel title</div>
+                <div class="panel-body">Panel Content</div>
+              </div>
             </div>
-            <div class="row">
-                <div class="col-sm-4 col-md-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Panel title</h3>
-                        </div>
-                        <div class="panel-body">
-                            Panel content
-                        </div>
-                    </div>
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Panel title</h3>
-                        </div>
-                        <div class="panel-body">
-                            Panel content
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <div class="panel panel-success">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Panel title</h3>
-                        </div>
-                        <div class="panel-body">
-                            Panel content
-                        </div>
-                    </div>
-                    <div class="panel panel-info">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Panel title</h3>
-                        </div>
-                        <div class="panel-body">
-                            Panel content
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <div class="panel panel-warning">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Panel title</h3>
-                        </div>
-                        <div class="panel-body">
-                            Panel content
-                        </div>
-                    </div>
-                    <div class="panel panel-danger">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Panel title</h3>
-                        </div>
-                        <div class="panel-body">
-                            Panel content
-                        </div>
-                    </div>
-                </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="panel panel-info">
+                <div class="panel-heading">Panel title</div>
+                <div class="panel-body">Panel Content</div>
+              </div>
+
             </div>
-        </section>
-        <!-- CAJAS -->
-        <section id="cajas" class="container">
-            <div class="row espacioAbajo ">
-                <div class="page-header col-md-12">
-                    <h2>Wells</h2>
-                </div>
+            <div class="col-md-4">
+              <div class="panel panel-warning">
+                <div class="panel-heading">Panel title</div>
+                <div class="panel-body">Panel Content</div>
+              </div>
+
+
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="well">
-                        <p>
-                            Muy lejos, más allá de las montañas de palabras, alejados de los países de las vocales y las consonantes, viven los textos simulados. Viven aislados en casas de letras, en la costa de la semántica, un gran océano de lenguas. Un riachuelo llamado Pons fluye por su pueblo y los abastece con las normas necesarias. Hablamos de un país paraisomático en el que a uno le caen pedazos de frases asadas en la boca. Ni siquiera los todopoderosos signos de puntuación dominan a los textos simulados; una vida, se puede decir, poco ortográfica.
-                        </p>
-                    </div>
-                </div>
+            <div class="col-md-4">
+              <div class="panel panel-danger">
+                <div class="panel-heading">Panel title</div>
+                <div class="panel-body">Panel Content</div>
+              </div>
+
             </div>
+
+          </div>
+
         </section>
 
 
-        <!-- CARRUSEL -->
-        <section id="carrusel" class="container">
-            <div class="row espacioAbajo ">
-                <div class="page-header col-md-12">
-                    <h2>Carousel</h2>
+<!--Area de walls     ---------------------------------------------------------->
+
+       <section class="container">
+         <div class="row espacioAbajo">
+           <div class="col-md-12 page-header">
+             <h2>Well</h2>
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-md-12">
+             <div class="well">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                 sed do eiusmod tempor incididunt ut labore et dolore magna
+                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                 ullamco
+               </p>
+             </div>
+           </div>
+
+         </div>
+       </section>
+
+
+
+<!--- Seccion de Carrusel    --------------------------------------------------->
+       <section class="container">
+         <div class="row">
+           <div class="col-md-12 page-header">
+             <h2>Carousel</h2>
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-md-12">
+             <div id="myCarousel" class="carousel slide" data-ride="carousel">
+               <ol class="carousel-indicators">
+                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                 <li data-target="#myCarousel" data-slide-to="1"></li>
+                 <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="fondo1.jpg"  style="width:100%;">
                 </div>
-            </div>
-            <div class="row">
-                <div class="col md-12">
-
+                <div class="item">
+                  <img src="fondo2.jpg"  style="width:100%;">
                 </div>
-            </div>
-        </section>
-
-
-
-
+                <div class="item">
+                  <img src="fondo3.jpg"  style="width:100%;">
+                </div>
+              </div>
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+             </a>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
 
     <!-- jquery y Bootstrap poner por orden -->
     <script src="js/jquery.js"></script>
